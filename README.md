@@ -1,11 +1,13 @@
 # <img src="icon.svg" alt="OpenZeppelin" height="40px" align="left"> OpenZeppelin Contracts Upgradeable
+Custom repo by [Bloom Verga](twitter.com/BloomVerga)
 
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://docs.openzeppelin.com/contracts/upgradeable)
 [![NPM Package](https://img.shields.io/npm/v/@openzeppelin/contracts-upgradeable.svg)](https://www.npmjs.org/package/@openzeppelin/contracts-upgradeable)
 
-This repository hosts the Upgradeable variant of [OpenZeppelin Contracts], meant for use in upgradeable contracts. This variant is available as separate package called `@openzeppelin/contracts-upgradeable`.
+This repository hosts a custom variant of the  [Upgradeable OpenZeppelin Contracts], meant for use in upgradeable contracts. The Upgradeable Openzeppelin Contracts is available as separate package called `@openzeppelin/contracts-upgradeable`.
 
-[OpenZeppelin Contracts]: https://github.com/OpenZeppelin/openzeppelin-contracts
+[Upgradeable OpenZeppelin Contracts]: https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable
+
 
 It follows all of the rules for [Writing Upgradeable Contracts]: constructors are replaced by initializer functions, state variables are initialized in initializer functions, and we additionally check for storage incompatibilities across minor versions.
 
@@ -18,6 +20,16 @@ It follows all of the rules for [Writing Upgradeable Contracts]: constructors ar
 > Similarly, it is not safe to upgrade from `@openzeppelin/contracts-ethereum-package` (a similar previous package) to `@openzeppelin/contracts-upgradeable`.
 >
 > **It is strongly encouraged to use these contracts together with a tool that can automatically guarantee the safety of an upgradeable contract, such as the [OpenZeppelin Upgrades Plugins](https://github.com/OpenZeppelin/openzeppelin-upgrades).**
+
+## The aim of this variant
+Since the [Upgradeable OpenZeppelin Contracts] repo is a like a mirror ie auto-generated from the [OpenZeppelin Contracts] repo. Most of its code was not (yet) updated for upgradeability.
+
+[OpenZeppelin Contracts]: https://github.com/OpenZeppelin/openzeppelin-contracts
+
+The aim of this repo is therefore to fix existing issues (mainly related to upgradeability) in other to be used with less frictions.
+
+## What have been done
+* Updating ERC20 Upgradeable related tests ([commit 591362cf](https://github.com/bloomverga/openzeppelin-contracts-upgradeable/commit/591362cfe5e2b25da9b162287ba3c56ae4d4e206))
 
 ## Overview
 

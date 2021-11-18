@@ -1,11 +1,12 @@
 Contributing to OpenZeppelin Contracts
 =======
+To contribute to the OpenZeppelin Contracts original project, it's [here](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable/blob/master/CONTRIBUTING.md).
 
-We really appreciate and value contributions to OpenZeppelin Contracts. Please take 5' to review the items listed below to make sure that your contributions are merged as soon as possible.
+To contribute to this alternative version, please take 5' to review the items listed below to make sure that your contributions are merged as soon as possible.
 
 ## Contribution guidelines
 
-Smart contracts manage value and are highly vulnerable to errors and attacks. We have very strict [guidelines], please make sure to review them!
+Smart contracts manage value and are highly vulnerable to errors and attacks. We recommand to follow the strict [guidelines] established by OpenZeppelin. Please make sure to review them!
 
 ## Creating Pull Requests (PRs)
 
@@ -17,11 +18,11 @@ As a contributor, you are expected to fork this repository, work on your own for
 
 ```
 cd openzeppelin-contracts
-git remote add upstream https://github.com/OpenZeppelin/openzeppelin-contracts.git
+git remote add upstream https://github.com/bloomverga/openzeppelin-contracts-upgradeable.git
 git fetch upstream
 git pull --rebase upstream master
 ```
-NOTE: The directory `openzeppelin-contracts` represents your fork's local copy.
+NOTE: The directory `openzeppelin-contracts-upgradeable` represents your fork's local copy.
 
 2) Branch out from `master` into `fix/some-bug-#123`:
 (Postfixing #123 will associate your PR with the issue #123 and make everyone's life easier =D)
@@ -44,7 +45,7 @@ npm test
 npm run lint
 ```
 
-5) Go to [github.com/OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts) in your web browser and issue a new pull request.
+5) Go to [github.com/bloomverga/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts-upgradeable) in your web browser and issue a new pull request.
 
 *IMPORTANT* Read the PR template very carefully and make sure to follow all the instructions. These instructions
 refer to some very important conditions that your PR must meet in order to be accepted, such as making sure that all tests pass, JS linting tests pass, Solidity linting tests pass, etc.
@@ -55,9 +56,9 @@ refer to some very important conditions that your PR must meet in order to be ac
 
 ## All set!
 
-If you have any questions, feel free to post them to github.com/OpenZeppelin/openzeppelin-contracts/issues.
+If you have any questions, feel free to post them to github.com/bloomverga/openzeppelin-contracts-upgradeable/issues.
 
-Finally, if you're looking to collaborate and want to find easy tasks to start, look at the issues we marked as ["Good first issue"](https://github.com/OpenZeppelin/openzeppelin-contracts/labels/good%20first%20issue).
+Finally, if you're looking to collaborate and want to find easy tasks to start, look at the issues we marked as ["Good first issue"](https://github.com/bloomverga/openzeppelin-contracts-upgradeable/labels/good%20first%20issue).
 
 Thanks for your time and code!
 

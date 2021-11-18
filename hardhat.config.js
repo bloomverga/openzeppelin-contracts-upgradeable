@@ -6,6 +6,8 @@
 // - COMPILE_VERSION:   compiler version (default: 0.8.3)
 // - COINMARKETCAP:     coinmarkercat api key for USD value in gas report
 
+require('@openzeppelin/hardhat-upgrades');
+
 const fs = require('fs');
 const path = require('path');
 const argv = require('yargs/yargs')()
